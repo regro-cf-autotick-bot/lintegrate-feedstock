@@ -20,7 +20,7 @@ build:
     - vc14_runtime  # [win]
     - vs2015_runtime  # [win]
     - libgcc  # [linux]
-  number: 2
+  number: 3
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
